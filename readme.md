@@ -1,4 +1,4 @@
-# 🚀 Geeks for Feeks
+# 🚀 Geeks for Geeks
 
 This repository contains my **topic-wise solutions to GeeksforGeeks problems**, pushed regularly to improve problem-solving skills and strengthen **Data Structures & Algorithms** fundamentals.
 
