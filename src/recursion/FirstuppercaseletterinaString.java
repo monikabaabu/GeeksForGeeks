@@ -7,14 +7,15 @@ public class FirstuppercaseletterinaString {
         char c = check(s,0);
         System.out.println(c);
     }
-    private static char check(String s, int i){
-        if(Character.isUpperCase(s.charAt(i))){
-            return s.charAt(i);
-        }
-        if(i>=s.length()){
+    private static char check(String s, int i) {
+        if (i >= s.length()) {
             return ' ';
         }
-        return check(s,i+1);
+        if (Character.isUpperCase(s.charAt(i))) {
+            return s.charAt(i);
+
+        }
+        return check(s, i + 1);
     }
 
 }
