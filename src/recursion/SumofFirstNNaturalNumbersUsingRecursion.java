@@ -1,16 +1,15 @@
 package recursion;
 import java.util.*;
-public class Sumofdigitofanumberusingrecursion {
+public class SumofFirstNNaturalNumbersUsingRecursion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(sum(n));
     }
     private static int sum(int n){
-        if(n<=0){
-            return 0;
+        if(n==1){
+            return 1;
         }
-        return sum(n/10)+n%10;
+        return sum(n-1)+n;
     }
-
 }
